@@ -113,7 +113,8 @@ const Login = () => {
   return (
     <div
       style={{
-        backgroundImage: bgGradient,
+        // backgroundImage: bgGradient,
+        backgroundColor:"#fefef5"
       }}
     >
       <Container
@@ -133,6 +134,7 @@ const Login = () => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            borderRadius:'2rem'
           }}
         >
           {isLogin ? (
