@@ -33,7 +33,8 @@ const AdminLogin = () => {
   return (
     <div
       style={{
-        backgroundImage: bgGradient,
+        // backgroundImage: bgGradient,
+        backgroundColor: "#fefef5"
       }}
     >
       <Container

@@ -161,7 +161,7 @@ const Dashboard = () => {
                 width={"100%"}
                 height={"100%"}
               >
-                <GroupIcon /> <Typography>Vs </Typography>
+                <GroupIcon /> <Typography>VS</Typography>
                 <PersonIcon />
               </Stack>
             </Paper>
