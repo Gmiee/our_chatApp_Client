@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import React, { Suspense, lazy, useState } from "react";
-import { orange } from "../../constants/color";
+// import { orange } from "../../constants/color";
 import {
   Add as AddIcon,
   Menu as MenuIcon,
@@ -83,9 +83,10 @@ const Header = () => {
         >
           <Toolbar>
             <Typography
-              variant="h6"
+            className="LOGO"
+              variant="h5"
               sx={{
-                display: { xs: "none", sm: "block" },
+                display: { xs: "none", sm: "block", fontFamily: "Whisper" },
               }}
             >
               LazyyChatt
